@@ -1,0 +1,7 @@
+# Next.js TypeScript ESLint Configuration
+
+extends:
+  - "next/core-web-vitals"
+
+rules:
+  "@next/next/no-html-link-for-pages": "warn"

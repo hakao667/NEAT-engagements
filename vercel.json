@@ -1,0 +1,29 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "DATABASE_URL": {
+      "description": "MongoDB connection string"
+    },
+    "NEXTAUTH_SECRET": {
+      "description": "NextAuth secret for session encryption"
+    },
+    "NEXTAUTH_URL": {
+      "description": "Your app's production URL"
+    },
+    "RESEND_API_KEY": {
+      "description": "Resend API key for sending emails"
+    },
+    "ADMIN_EMAIL": {
+      "description": "Admin email for inquiries"
+    },
+    "NEXT_PUBLIC_SITE_URL": {
+      "description": "Your app's public URL"
+    },
+    "NEXT_PUBLIC_CONTACT_EMAIL": {
+      "description": "Contact email for customers"
+    }
+  }
+}

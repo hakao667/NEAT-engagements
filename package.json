@@ -1,0 +1,42 @@
+{
+  "name": "neat-engagements-website",
+  "version": "1.0.0",
+  "description": "Modern, responsive corporate website for NEAT Engagements",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:migrate": "npx prisma migrate dev",
+    "db:studio": "npx prisma studio"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.0",
+    "@prisma/client": "^5.0.0",
+    "next": "^9.3.3",
+    "next-auth": "^4.24.14",
+    "next-sitemap": "^2.5.28",
+    "prisma": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-hook-form": "^7.48.0",
+    "resend": "^2.0.0",
+    "sharp": "^0.32.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/tailwindcss": "^3.0.11",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

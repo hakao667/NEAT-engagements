@@ -1,0 +1,443 @@
+Product Requirements Document (PRD)
+
+Project Name
+NEAT Engagements Website
+
+Version
+
+1.0
+
+Overview
+
+NEAT Engagements requires a modern, professional, and responsive corporate website that serves as both an informational platform and a lead-generation tool. The website will showcase the company's identity, history, and services while providing potential clients and applicants with a streamlined method of contacting the company and submitting inquiries.
+
+The website should emphasize trust, professionalism, accessibility, and ease of communication.
+
+Brand Guidelines
+
+Primary Colors
+
+Green Palette
+
+* Primary Green: #2E8B57
+* Light Green: #7BC67B
+* Dark Green: #1B5E20
+
+Blue Palette
+
+* Navy Blue: #0F2D52
+* Light Blue: #7EC8E3
+
+Neutral Colors
+
+* White: #FFFFFF
+* Light Gray: #F5F7FA
+* Dark Gray: #333333
+
+Project Goals
+
+Business Goals
+
+* Establish a professional online presence.
+* Showcase company services and history.
+* Generate qualified leads through inquiry forms.
+* Allow applicants and potential clients to contact the company directly.
+* Automate inquiry notifications via email.
+
+User Goals
+
+* Learn about NEAT Engagements.
+* Explore available services.
+* Contact the company easily.
+* Submit service inquiries.
+* Apply or express interest in working with the company.
+* Receive confirmation after form submission.
+
+Target Audience
+
+Primary Audience
+
+* Potential Clients
+* Business Partners
+* Corporate Customers
+
+Secondary Audience
+
+* Job Applicants
+* Freelancers
+* Vendors
+* General Visitors
+
+
+Website Structure
+
+1. Home Page
+
+Hero Section
+
+* Company Logo
+* Professional Banner Image
+* Company Tagline
+* Call-to-Action Buttons:
+
+  * Learn More
+  * Contact Us
+  * Request a Consultation
+
+About NEAT Section
+
+Brief introduction explaining:
+
+* Who NEAT Engagements is
+* Mission and Vision
+* Core Values
+
+Services Preview
+
+Display service cards with:
+
+* Service Icon
+* Service Name
+* Short Description
+* Learn More Button
+
+Why Choose NEAT Engagements
+
+Highlight:
+
+* Professional Service
+* Industry Experience
+* Reliable Support
+* Client Satisfaction
+
+Contact CTA
+
+A dedicated section encouraging visitors to submit inquiries.
+
+
+2. About Us Page
+
+Company Overview
+
+* Company Introduction
+* Mission
+* Vision
+* Core Values
+
+Leadership/Team Section
+
+(Optional)
+
+Company Culture
+
+(Optional)
+
+
+3. Services Page
+
+Services Listing
+
+Each service should include:
+
+* Service Title
+* Description
+* Benefits
+* Inquiry Button
+
+Possible layout:
+
+* Grid Cards
+* Accordion Sections
+* Service Detail Pages
+
+
+4. Company History Page
+
+Timeline Layout
+
+Include:
+
+* Founding Year
+* Major Milestones
+* Business Growth
+* Future Goals
+
+Interactive timeline preferred.
+
+
+5. Contact Us Page
+
+Contact Information
+
+* Company Email
+* Phone Number
+* Office Address
+* Business Hours
+Embedded Map
+
+(Optional)
+
+Contact Form
+
+Fields:
+
+* Full Name
+* Company Name
+* Email Address
+* Phone Number
+* Inquiry Type
+* Subject
+* Message
+
+Button:
+
+* Submit Inquiry
+
+
+6. Careers / Applicants Page
+
+Applicant Interest Form
+
+Fields:
+
+* Full Name
+* Email Address
+* Phone Number
+* Position Interested In
+* Resume Upload
+* Cover Letter / Message
+
+Button:
+
+* Submit Application
+
+
+Core Functional Requirements
+
+Inquiry Submission System
+
+Client Inquiry Form
+
+When a visitor submits an inquiry:
+
+Store:
+
+* Full Name
+* Company Name
+* Email
+* Phone Number
+* Subject
+* Message
+* Timestamp
+
+Email Notification
+
+Upon submission:
+
+Send email to:
+
+* company email address
+
+Include:
+
+* Full Name
+* Company Name
+* Email Address
+* Phone Number
+* Subject
+* Inquiry Message
+* Submission Date
+
+Example Subject:
+
+"New Inquiry Received - NEAT Engagements Website"
+
+
+Automatic Confirmation Email
+
+After successful inquiry submission:
+
+Send automated confirmation email to the user.
+
+Example Subject:
+
+"Thank You for Contacting NEAT Engagements"
+
+Email Body:
+
+Thank you for contacting NEAT Engagements.
+
+We have received your inquiry and our team will review it shortly.
+
+A representative will contact you as soon as possible.
+
+Regards,
+NEAT Engagements Team
+
+Applicant Submission System
+
+When an applicant submits a form:
+
+Send email notification to company email containing:
+
+* Applicant Name
+* Email
+* Phone Number
+* Desired Position
+* Resume Attachment
+* Message
+
+Send confirmation email to applicant.
+
+Admin Requirements
+
+Inquiry Management
+
+Admin should be able to:
+
+* View inquiries
+* Search inquiries
+* Sort inquiries
+* Export inquiries
+
+(Optional Admin Dashboard)
+
+ Applicant Management
+
+Admin should be able to:
+
+* View applicants
+* Download resumes
+* Search applicants
+* Export applicant data
+
+Technical Requirements
+
+Front-End
+
+Recommended:
+
+* Next.js
+* React
+* Tailwind CSS
+
+Features:
+
+* Responsive Design
+* Mobile Friendly
+* Fast Loading
+* SEO Optimized
+
+ Back-End
+
+Recommended:
+
+* Node.js
+* Express.js
+
+or
+
+* Next.js API Routes
+
+Database
+
+Recommended:
+
+* PostgreSQL
+* MySQL
+* MongoDB
+
+Store:
+
+* Inquiries
+* Applicants
+* Contact Records
+
+Email Service
+
+Recommended:
+
+* Gmail SMTP
+* Google Workspace
+* SendGrid
+* Resend
+
+Functions:
+
+* Send inquiry notifications
+* Send confirmation emails
+* Send applicant notifications
+
+
+Non-Functional Requirements
+
+Security
+
+* HTTPS
+* Spam Protection
+* Form Validation
+* CAPTCHA
+
+Performance
+
+* Page Load < 3 seconds
+* Mobile Optimization
+
+Accessibility
+
+* WCAG Compliance
+* Keyboard Navigation
+* Screen Reader Support
+
+SEO Requirements
+
+Pages should be optimized for:
+
+* Google Search
+* Mobile Search
+* Local Search
+
+Meta Tags:
+
+* Homepage
+* About Us
+* Services
+* History
+* Contact
+
+Future Enhancements
+
+Phase 2:
+
+* Client Portal
+* Online Booking System
+* Live Chat Support
+* Blog Section
+* Testimonials
+* Newsletter Subscription
+
+
+Success Metrics
+
+* Number of inquiries submitted
+* Number of applicants received
+* Website traffic
+* Contact conversion rate
+* Email delivery success rate
+* User engagement on services pages
+
+ Deliverables
+
+1. Responsive Website
+2. Homepage
+3. About Us Page
+4. Services Page
+5. Company History Page
+6. Contact Us Page
+7. Applicant Page
+8. Inquiry Form System
+9. Email Notification System
+10. Email Confirmation System
+11. SEO Optimization
+12. Mobile Optimization
+13. Admin Management System (Optional)
